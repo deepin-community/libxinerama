@@ -1,0 +1,4 @@
+#git=git://anongit.freedesktop.org/xorg/lib/libXinerama
+version=3
+opts=pgpsigurlmangle=s/$/.sig/ \
+http://xorg.freedesktop.org/releases/individual/lib/ libXinerama-(.*)\.tar\.gz
